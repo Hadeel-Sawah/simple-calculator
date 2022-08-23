@@ -1,0 +1,81 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #fff;
+    font-size: 1.3rem;
+}
+body{
+    background: linear-gradient(to right,#000428,#004e92);
+    overflow: hidden;
+    
+}
+:root{
+    --numback:#b7bcc02a;
+}
+.contain{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.contain .calculator{
+    border: 1px solid var(--numback);
+    border-radius: .5rem;
+    height: auto;
+    padding-top: 1.5rem;
+    text-align: center;
+    margin-top: 2rem;
+    box-shadow: 2px 2px 16px 3px #000d35;
+}
+.output{
+    background-color: transparent;
+    outline: none !important;
+    border: 1px solid var(--numback);
+    padding: .7rem;
+    border-radius: .2rem;
+    margin-bottom:2rem;
+    width: 90% !important;
+    margin:.3rem auto 2rem;
+    color: #fff;
+}
+.output:hover,.output:disabled{
+    background-color: transparent;
+    border: 1px solid var(--numback);
+
+}
+.item{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 1.5rem;
+    margin-left: .5rem;
+    margin-right: .5rem;
+}
+.num{
+    width: 75px;
+    height:60px;
+    background: #000d35;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin-left: 5px;
+}
+.equal,.btn-clear{
+    width: 150px;
+    border-radius: 5rem;
+}
+.marker{
+ color: #04b9ad;
+ font-size: 2rem;
+ padding-bottom: 10px;
+}
+.multy{
+ padding-bottom: 0px;
+ padding-top: 10px;
+}
+.dot{
+ padding-bottom: 15px;
+}
